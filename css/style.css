@@ -1,6 +1,9 @@
 body {
   text-align: center;
   margin: 0;
+  background-image: url(background.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 a {
@@ -21,7 +24,7 @@ h1 {
 }
 
 h2 {
-  color: #0d2c40;
+  color: white;
   letter-spacing: 1px;
   font-weight: 600;
   font-size: 20px;
@@ -47,7 +50,7 @@ p {
 }
 
 header {
-  background-color: #f15b31;
+  background-color: rgba(13,44,64,1);
   color: #ffffff;
   padding: 30px 20px;
 }
@@ -61,6 +64,9 @@ nav {
 main {
   width: 850px;
   margin: 35px auto;
+  padding: 5px;
+  background-color: rgba(13,44,64,0.2);
+  color: white;
 }
 
 img {

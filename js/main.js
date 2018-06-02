@@ -21,12 +21,17 @@ var cards = [
     cardImage: 'images/king-of-diamonds.png'
   }
 ];
+//set score to 0
+var score = 0;
 //cards in play
 var cardsInPlay = [];
 //function to check for match
 var checkForMatch = function () {
   if (cardsInPlay[0] === cardsInPlay[1]) {
     alert('You found a match!');
+    score = score + 1;
+    //update score in DOM
+    document.getElementById('score').innerHTML = 'Score:  ' + score;
   } else {
     alert('Sorry, try again.');
   }
